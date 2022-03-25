@@ -68,8 +68,17 @@ for (i=0; i < squadre.length; i++) {
     
     let risultato = document.getElementById("container")
     risultato.innerHTML += `
-    <div>${squadre3[i].nome}</div>
-    <div>Falli Subiti: ${squadre3[i].falli}</div>
+    <div class="row">
+            <div class="w-50">
+                <div>${squadre3[i].nome}</div>
+                <div>Falli Subiti: ${squadre3[i].falli}</div>
+            </div>
+            
+            <div class="w-50 text-center pb-3">
+            <div> Punti Fatti: </div>
+            <div> ${squadre2[i].punti}</div>
+        </div>
+        <hr>
     `
 }
 
