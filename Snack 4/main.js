@@ -35,7 +35,7 @@ let over70 = students.filter((element) => {
     return element.grades > 70;
 })
 
-console.log(over70)
+console.log(over70);
 
 
 let newArray = [];
